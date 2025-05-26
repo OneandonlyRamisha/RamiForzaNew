@@ -1,0 +1,145 @@
+.processSection {
+  background-image: linear-gradient(
+    to right,
+    #1b2a49,
+    #16233a,
+    #0f1d2a,
+    #0a1720
+  );
+  position: relative;
+  padding: 0 14rem;
+  padding-bottom: 4.8rem;
+}
+.servicesSectionHeader {
+  padding-top: 4.8rem;
+  color: #f0f0f0;
+  font-weight: 700;
+  text-align: start;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.outlinedFont {
+  color: transparent;
+  -webkit-text-stroke: 1px #f0f0f0;
+}
+
+.processContainer {
+  margin-top: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+}
+
+.processItem {
+  background: linear-gradient(180deg, #00a9e0, #004c82);
+  padding: 3rem 5rem;
+  min-height: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.processItem i {
+  font-size: 6.4rem;
+  color: #f0f0f0;
+}
+
+.processHeader {
+  font-size: 3.2rem;
+  font-weight: 600;
+
+  color: #f0f0f0;
+}
+
+.processDescription {
+  color: #f0f0f0;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 1050px) {
+  .processSection {
+    padding: 0 4rem;
+    padding-bottom: 4.8rem;
+  }
+}
+
+@media (max-width: 875px) {
+  .servicesSectionHeader {
+    font-size: 5.4rem;
+  }
+  .processContainer {
+    gap: 2.4rem;
+  }
+}
+@media (max-width: 768px) {
+  .servicesSectionHeader {
+    font-size: 4.8rem;
+  }
+  .processContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 668px) {
+  .servicesSectionHeader {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 548px) {
+  .processSection {
+    padding: 0 1.6rem;
+    padding-bottom: 4.8rem;
+  }
+  .processItem i {
+    font-size: 5.8rem;
+    color: #f0f0f0;
+  }
+
+  .processHeader {
+    font-size: 2.4rem;
+    font-weight: 600;
+
+    color: #f0f0f0;
+  }
+
+  .processDescription {
+    color: #f0f0f0;
+    font-style: italic;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .servicesSectionHeader {
+    font-size: 7vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .servicesSectionHeader {
+    font-size: 10.1vw;
+  }
+
+  .notAvaible {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .processHeader {
+    font-size: 2.2rem;
+    font-weight: 600;
+
+    color: #f0f0f0;
+  }
+
+  .processDescription {
+    color: #f0f0f0;
+    font-style: italic;
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,105 @@
+.heroSection {
+  padding-bottom: 6.4rem;
+  background-image: var(--mainBg);
+}
+.heroContainer {
+  width: 76%;
+  padding-top: 4.6rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.callOut {
+  color: var(--mainText);
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.header {
+  color: var(--mainText);
+  font-size: 3.6vw;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 2rem;
+}
+
+.subHeader {
+  font-size: 2.2rem;
+  color: var(--mainText);
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+.testimonialsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  gap: 2.4rem;
+}
+
+@media (max-width: 1070px) {
+  .heroContainer {
+    width: 96%;
+  }
+  .header {
+    font-size: 5vw;
+  }
+  .subHeader {
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    font-size: 6vw;
+  }
+  .testimonialsContainer {
+    margin-top: 6.4rem;
+  }
+}
+@media (max-width: 600px) {
+  .subHeader {
+    font-size: 2.4vw;
+  }
+}
+
+@media (max-width: 520px) {
+  .heroContainer {
+    width: 99%;
+  }
+  .header {
+    font-size: 8.8vw;
+  }
+}
+
+@media (max-width: 433px) {
+  .callOut {
+    font-size: 3.2vw;
+  }
+  .subHeader {
+    display: none;
+  }
+  .header {
+    line-height: 1.5;
+  }
+  .btnContainer {
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2.4rem;
+  }
+}

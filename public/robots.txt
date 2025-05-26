@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ramiforza.com
+
+# Sitemaps
+Sitemap: https://ramiforza.com/sitemap.xml

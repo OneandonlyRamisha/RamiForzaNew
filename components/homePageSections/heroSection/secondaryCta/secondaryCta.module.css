@@ -1,0 +1,44 @@
+.secondaryBtn {
+  position: relative;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 2.6rem;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.9rem;
+  width: 100%;
+  height: 0.3rem;
+  background-color: #00a9e0;
+  transform: translateX(-50%) scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.underline:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+@media (max-width: 870px) {
+  .secondaryBtn {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .secondaryBtn {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 433px) {
+  .secondaryBtn {
+    font-size: 2rem;
+  }
+}

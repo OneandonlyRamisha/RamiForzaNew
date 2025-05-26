@@ -1,0 +1,161 @@
+.contactSection {
+  width: 100%;
+}
+
+/* Header */
+.headerPart {
+  background: var(--mainBg);
+  min-height: 65vh;
+  padding: 7.4rem 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  color: #f0f0f0;
+  font-weight: 700;
+  text-align: start;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.email {
+  font-size: 2.6rem;
+  color: #f0f0f0;
+}
+
+/* Footer */
+.footerPart {
+  padding: 6.4rem 16rem;
+  background-color: #f0f0f0;
+  position: relative;
+  min-height: 100vh;
+}
+
+.processHeader {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.processContainer {
+  margin-top: 4rem;
+  width: 44rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 2px solid var(--accent);
+}
+
+.step {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.title {
+  margin: 0;
+  background: linear-gradient(180deg, #00a9e0, #004c82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  color: #222222;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0.8rem 0 0;
+}
+
+/* ─── Desktop shrink (≤1450px) ─── */
+@media (max-width: 1450px) {
+  .headerPart {
+    padding: 7.4rem 6.4rem;
+  }
+  .footerPart {
+    padding: 7.4rem 6.4rem;
+  }
+}
+
+/* ─── Tablet (≤1024px) ─── */
+@media (max-width: 1024px) {
+  .processContainer {
+    width: 100%;
+  }
+}
+
+/* ─── Small (≤768px) ─── */
+@media (max-width: 768px) {
+  .headerPart {
+    padding: 4rem 2rem;
+    min-height: auto;
+    gap: 2rem;
+    align-items: center;
+  }
+  .footerPart {
+    padding: 4rem 2rem;
+    min-height: auto;
+  }
+  .processContainer {
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .timeline {
+    padding-left: 1rem;
+  }
+  .step {
+    margin-bottom: 5.4rem;
+  }
+}
+
+/* ─── Mobile (≤480px) ─── */
+@media (max-width: 480px) {
+  .headerPart {
+    padding: 3rem 1.5rem;
+  }
+  .header {
+    font-size: 4rem;
+  }
+
+  .email {
+    font-size: 2rem;
+  }
+  .footerPart {
+    padding: 3rem 1.5rem;
+  }
+  .processHeader {
+    font-size: 3rem;
+  }
+  .step {
+    margin-bottom: 3rem;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+}
+
+/* ─── Tiny (≤350px) ─── */
+@media (max-width: 350px) {
+  .header {
+    font-size: 3rem;
+  }
+  .email {
+    font-size: 1.6rem;
+  }
+  .processHeader {
+    font-size: 2.4rem;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+}

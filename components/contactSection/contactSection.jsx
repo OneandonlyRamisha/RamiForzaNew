@@ -26,7 +26,7 @@ export default function ContactSection() {
     <section className={classes.contactSection} id="contact">
       <div className={classes.headerPart}>
         <h4 className={classes.header}>Contact us </h4>
-        <p className={classes.email}>Myemail@gmail.com</p>
+        <p className={classes.email}>rami.forza.contact@gmail.com</p>
 
         <div className={classes.socialContainer}>
           <SocialIcons />

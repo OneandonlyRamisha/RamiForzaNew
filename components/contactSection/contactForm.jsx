@@ -11,7 +11,8 @@ export default function ContactForm() {
         </h4>
       </div>
       <form
-        action="https://formsubmit.co/lukabrazi365@gmail.com"
+        action="https://formsubmit.co/rami.forza.contact@gmail.com
+"
         method="POST"
         className={classes.form}
       >

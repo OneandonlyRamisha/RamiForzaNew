@@ -2,6 +2,7 @@ import "./globals.css";
 import Navigation from "@/components/homePageSections/navigation/navigation";
 import { Poppins, Lora } from "next/font/google";
 import NavigationBurger from "@/components/homePageSections/navigation/burgerNavigation/burgerNavigation";
+import { Analytics } from "@vercel/analytics/next";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({ children }) {
         <Navigation />
         <NavigationBurger />
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -9,8 +9,10 @@ export default function HeroSection() {
       <div className={classes.heroContainer}>
         <h2 className={classes.callOut}>Are You A Business Owner?</h2>
         <h1 className={classes.header}>
-          We'll Build Your Business A Website, That Drives Real
-          <span className={classes.highlight}> Business Results</span>
+          We'll Build Your Business A Website,
+          <span className={classes.highlight}>
+            That Drives Real Business Results
+          </span>
         </h1>
         <h3 className={classes.subHeader}>
           We build you a custom website designed for increasing your conversion
